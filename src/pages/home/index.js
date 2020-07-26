@@ -1,6 +1,61 @@
 import React, { Component } from "react";
 import "./index.css";
 export default class Home extends Component {
+  state = {
+    default: `:root {
+      --mainColor: #eaeaea;
+      --secondaryColor: #fff;
+      --borderColor: #c1c1c1;
+      --mainText: black;
+      --secondaryText: #4b5156;
+      --themeDotBorder: #24292e;
+      --previewBg: rgb(251, 249, 243, 0.8);
+      --previewShadow: #f0ead6;
+      --buttonColor: black;
+    }`,
+    blue: `:root{
+      --mainColor:#15202B;
+      --secondaryColor:#192734;
+      --borderColor:#164D56;
+      --mainText:#fff;
+      --secondaryText:#eeeeee;
+      --themeDotBorder:#FFF;
+      --previewBg:rgb(25, 39, 52, 0.8);
+      --previewShadow:#111921;
+      --buttonColor:#17a2b8;
+    }`,
+    green: `:root{
+      --mainColor:#606B56;
+      --secondaryColor:#515a48;
+      --borderColor:#161914;
+      --mainText:#fff;
+      --secondaryText:#eeeeee;
+      --themeDotBorder:#FFF;
+      --previewBg:rgb(81, 90, 72, 0.8);
+      --previewShadow:#2a2f25;
+      --buttonColor:#669966;
+    }`,
+    purple: `:root {
+      --mainColor: #46344e;
+      --secondaryColor: #382a3f;
+      --borderColor: #1d1520;
+      --mainText: #fff;
+      --secondaryText: #eeeeee;
+      --themeDotBorder: #fff;
+      --previewBg: rgb(29, 21, 32, 0.8);
+      --previewShadow: #2b202f;
+      --buttonColor: #8534a3;
+    }`,
+  };
+
+  onThemeChange = (e, theme) => {
+    e.preventDefault();
+    console.log(this[theme]);
+    document.head.insertAdjacentHTML(
+      "beforeend",
+      `<style>${this.state[theme]}</style>`
+    );
+  };
   render() {
     return (
       <div>
@@ -40,17 +95,25 @@ export default class Home extends Component {
                     data-mode="light"
                     id="light-mode"
                     class="theme-dot"
+                    onClick={(e) => this.onThemeChange(e, "default")}
                   ></div>
-                  <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                  <div
+                    data-mode="blue"
+                    id="blue-mode"
+                    class="theme-dot"
+                    onClick={(e) => this.onThemeChange(e, "blue")}
+                  ></div>
                   <div
                     data-mode="green"
                     id="green-mode"
                     class="theme-dot"
+                    onClick={(e) => this.onThemeChange(e, "green")}
                   ></div>
                   <div
                     data-mode="purple"
                     id="purple-mode"
                     class="theme-dot"
+                    onClick={(e) => this.onThemeChange(e, "purple")}
                   ></div>
                 </div>
               </div>
@@ -93,8 +156,9 @@ export default class Home extends Component {
                 <h4>TOP EXPERTISE</h4>
 
                 <p>
-                  Frontend developer with primary focus on React and Vue.<br/>
-                  On the road to become fullstack{" "}-{" "} 
+                  Frontend developer with primary focus on React and Vue.
+                  <br />
+                  On the road to become fullstack -{" "}
                   <a target="_blank" href="resume.pdf">
                     Download Resume
                   </a>
@@ -132,6 +196,79 @@ export default class Home extends Component {
                 </a>
               </div>
             </div>
+          </div>
+        </section>
+        <section class="s1">
+          <div class="main-container">
+            <h3 style={{ textAlign: "center" }}>Some of my past projects</h3>
+
+            <div class="post-wrapper">
+              <div>
+                <div class="post">
+                  <img class="thumbnail" src="images/dash.jpg" />
+                  <div class="post-preview">
+                    <h6 class="post-title">Laboratory Management System</h6>
+                    <p class="post-intro">
+                      Designed built & mantained a the lab managment system for
+                      FOI Laboratories
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="post">
+                  <img class="thumbnail" src="images/ecom.jpg" />
+                  <div class="post-preview">
+                    <h6 class="post-title">Online Store - CoursePost Title</h6>
+                    <p class="post-intro">
+                      Online store with paypal payments intergration and guest
+                      user shopping
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="post">
+                  <img class="thumbnail" src="images/membership site.jpg" />
+                  <div class="post-preview">
+                    <h6 class="post-title">Membership Website</h6>
+                    <p class="post-intro">
+                      Modulized guide for online courses with step by step
+                      intructions
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s2">
+          <div class="main-container">
+            <a href=""></a>
+            <h3 style={{ textAlign: "center" }}>Get In Touch</h3>
+
+            <form id="contact-form">
+              <a name="contact"></a>
+
+              <label>Name</label>
+              <input class="input-field" type="text" name="name" />
+
+              <label>Subject</label>
+              <input class="input-field" type="text" name="subject" />
+
+              <label>Email</label>
+              <input class="input-field" type="text" name="email" />
+
+              <label>Message</label>
+              <textarea class="input-field" name="message"></textarea>
+
+              <input id="submit-btn" type="submit" value="Send" />
+            </form>
           </div>
         </section>
       </div>
