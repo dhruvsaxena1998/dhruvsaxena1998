@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
+
+import { Provider } from '../../context/api'
 
 import Header from "../../components/header";
 import Profile from "../../components/profile";
@@ -7,8 +9,8 @@ import Projects from "../../components/projects";
 import Contact from "../../components/contact";
 
 import "./index.css";
-export default class Home extends Component {
-  state = {
+export default () => {
+  const state = {
     default: `:root {
       --mainColor: #eaeaea;
       --secondaryColor: #fff;
@@ -54,9 +56,8 @@ export default class Home extends Component {
       --buttonColor: #8534a3;
     }`,
   };
-  render() {
     return (
-      <div>
+      <Provider>
         <section class="section-light">
           <div className="main-container">
             <Header name="Dhruv Saxena" />
@@ -78,7 +79,6 @@ export default class Home extends Component {
             <Contact />
           </div>
         </section>
-      </div>
+      </Provider>
     );
-  }
 }
