@@ -17,9 +17,7 @@ const Dot = styled.div`
   cursor: pointer;
 
   &:hover {
-    height: 23px;
-    width:23px;
-    border-width: 5px;
+    transform: scale(1.2);
   }
 `;
 

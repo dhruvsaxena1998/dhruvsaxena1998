@@ -1,6 +1,5 @@
-import React from "react";
-
-import { Provider } from '../../context/api'
+import React, { useContext } from "react";
+import { Context } from "../../context/api";
 
 import Header from "../../components/header";
 import Profile from "../../components/profile";
@@ -8,8 +7,10 @@ import About from "../../components/about";
 import Projects from "../../components/projects";
 import Contact from "../../components/contact";
 
+import { SectionLight, SectionDark, MainContainer } from "./style";
 import "./index.css";
 export default () => {
+  const { theme } = useContext(Context);
   const state = {
     default: `:root {
       --mainColor: #eaeaea;
@@ -56,29 +57,29 @@ export default () => {
       --buttonColor: #8534a3;
     }`,
   };
-    return (
-      <Provider>
-        <section class="section-light">
-          <div className="main-container">
-            <Header name="Dhruv Saxena" />
-            <Profile />
-          </div>
-        </section>
-        <section className="section-dark">
-          <div class="main-container">
-            <About />
-          </div>
-        </section>
-        <section class="section-light">
-          <div class="main-container">
-            <Projects />
-          </div>
-        </section>
-        <section class="section-dark">
-          <div class="main-container">
-            <Contact />
-          </div>
-        </section>
-      </Provider>
-    );
-}
+  return (
+    <>
+      <SectionLight theme={theme}>
+        <MainContainer>
+          <Header name="Dhruv Saxena" />
+          <Profile />
+        </MainContainer>
+      </SectionLight>
+      <SectionDark theme={theme}>
+        <MainContainer>
+          <About />
+        </MainContainer>
+      </SectionDark>
+      <SectionLight theme={theme}>
+        <MainContainer>
+          <Projects />
+        </MainContainer>
+      </SectionLight>
+      <SectionDark theme={theme}>
+        <MainContainer>
+          <Contact />
+        </MainContainer>
+      </SectionDark>
+    </>
+  );
+};
