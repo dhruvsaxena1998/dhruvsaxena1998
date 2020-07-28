@@ -7,7 +7,7 @@ import About from "../../components/about";
 import Projects from "../../components/projects";
 import Contact from "../../components/contact";
 
-import { SectionLight, SectionDark, MainContainer } from "./style";
+import { CONTAINER, SectionLight, SectionDark, MainContainer } from "./style";
 import "./index.css";
 export default () => {
   const { theme } = useContext(Context);
@@ -58,7 +58,7 @@ export default () => {
     }`,
   };
   return (
-    <>
+    <CONTAINER theme={theme}>
       <SectionLight theme={theme}>
         <MainContainer>
           <Header name="Dhruv Saxena" />
@@ -80,6 +80,6 @@ export default () => {
           <Contact />
         </MainContainer>
       </SectionDark>
-    </>
+    </CONTAINER>
   );
 };

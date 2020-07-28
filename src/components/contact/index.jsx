@@ -1,23 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Context } from "../../context/api";
+import { Form, Input, Button, Textarea } from "./style";
+export default (props) => {
+  const { theme } = useContext(Context);
+  return (
+    <>
+      <h3 style={{ textAlign: "center" }}>Get In Touch</h3>
 
-export default (props) => (
-  <>
-    <h3 style={{ textAlign: "center" }}>Get In Touch</h3>
+      <Form theme={theme}>
+        <label>Name</label>
+        <Input theme={theme} />
 
-    <form id="contact-form">
-      <label>Name</label>
-      <input class="input-field" type="text" name="name" />
+        <label>Subject</label>
+        <Input theme={theme} />
 
-      <label>Subject</label>
-      <input class="input-field" type="text" name="subject" />
+        <label>Email</label>
+        <Input theme={theme} />
 
-      <label>Email</label>
-      <input class="input-field" type="text" name="email" />
+        <label>Message</label>
+        <Textarea theme={theme}></Textarea>
 
-      <label>Message</label>
-      <textarea class="input-field" name="message"></textarea>
-
-      <input id="submit-btn" type="submit" value="Send" />
-    </form>
-  </>
-);
+        <Button theme={theme.buttonColor}> Send </Button>
+      </Form>
+    </>
+  );
+};
