@@ -16,8 +16,8 @@ export default (props) => {
       <PostWrapper>
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="images/dash.jpg" />
-            <PostPreview>
+            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <PostPreview theme={theme.secondaryColor}>
               <PostTitle>Laboratory Management System</PostTitle>
               <PostIntro>
                 Designed built & mantained a the lab managment system for FOI
@@ -32,8 +32,8 @@ export default (props) => {
 
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="images/dash.jpg" />
-            <PostPreview>
+            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <PostPreview theme={theme.secondaryColor}>
               <PostTitle>Laboratory Management System</PostTitle>
               <PostIntro>
                 Designed built & mantained a the lab managment system for FOI
@@ -48,8 +48,8 @@ export default (props) => {
 
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="images/dash.jpg" />
-            <PostPreview>
+            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <PostPreview theme={theme.secondaryColor}>
               <PostTitle>Laboratory Management System</PostTitle>
               <PostIntro>
                 Designed built & mantained a the lab managment system for FOI

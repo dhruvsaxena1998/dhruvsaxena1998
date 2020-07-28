@@ -27,7 +27,7 @@ export const Thumbnail = styled.img`
 `;
 
 export const PostPreview = styled.div`
-  background-color: #fff;
+  background-color: ${(props) => props.theme};
   padding: 15px;
 `;
 

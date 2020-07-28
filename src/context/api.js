@@ -20,17 +20,8 @@ export const Context = createContext(initState);
 export const Provider = ({ children }) => {
   const [state, dispatch] = useReducer(Reducer, initState);
 
-  const initTheme = () => {
-    const theme = localStorage.getItem("@theme");
-    if (!theme) return false;
-
-    dispatch({
-      type: "INIT_THEME",
-      payload: theme,
-    });
-  };
-
   const setTheme = (theme) => {
+    localStorage.setItem('@theme', theme)
     dispatch({
       type: "SET_THEME",
       payload: theme,
@@ -42,7 +33,6 @@ export const Provider = ({ children }) => {
       value={{
         theme: state.theme,
         loading: state.loading,
-        initTheme,
         setTheme
       }}
     >
