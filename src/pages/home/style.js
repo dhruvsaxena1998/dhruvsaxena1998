@@ -74,3 +74,9 @@ export const MainContainer = styled.div`
     width: 95%;
   }
 `;
+
+export const Footer = styled.div`
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 20px;
+`;
