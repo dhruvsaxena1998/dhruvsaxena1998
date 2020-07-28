@@ -23,7 +23,7 @@ export const Thumbnail = styled.img`
   display: block;
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: ${(props) => (props ? props.fit : "cover")};
 `;
 
 export const PostPreview = styled.div`

@@ -16,15 +16,15 @@ export default (props) => {
       <PostWrapper>
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <Thumbnail src="https://mobi.readwhere.com/img/native_apps_main.jpg" />
             <PostPreview theme={theme.secondaryColor}>
-              <PostTitle>Laboratory Management System</PostTitle>
+              <PostTitle>Content Management System</PostTitle>
               <PostIntro>
-                Designed built & mantained a the lab managment system for FOI
-                Laboratories
+              A basic Content Management System [WIP].
+              Allows user to manage their website cum blog.
               </PostIntro>
               <div style={{ textAlign: "right" }}>
-                <a href="#">Read More</a>
+                <a href="https://github.com/dhruvsaxena1998/cms">Github</a>
               </div>
             </PostPreview>
           </Post>
@@ -32,15 +32,15 @@ export default (props) => {
 
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <Thumbnail src="https://i.imgur.com/qgVgn6c.png"/>
             <PostPreview theme={theme.secondaryColor}>
-              <PostTitle>Laboratory Management System</PostTitle>
+              <PostTitle>Simplify - URL Shortner and tracker</PostTitle>
               <PostIntro>
-                Designed built & mantained a the lab managment system for FOI
-                Laboratories
+                Developed with vuetify and express. Allows
+                user to shorten and track their long url's.
               </PostIntro>
               <div style={{ textAlign: "right" }}>
-                <a href="#">Read More</a>
+                <a href="https://github.com/dhruvsaxena1998/simplify-vue">Github</a>
               </div>
             </PostPreview>
           </Post>
@@ -48,15 +48,16 @@ export default (props) => {
 
         <div>
           <Post theme={theme.borderColor}>
-            <Thumbnail src="https://image.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" />
+            <Thumbnail src="https://i.imgur.com/xQfE0q1.png" />
             <PostPreview theme={theme.secondaryColor}>
-              <PostTitle>Laboratory Management System</PostTitle>
+              <PostTitle>UN-NAMMED</PostTitle>
               <PostIntro>
-                Designed built & mantained a the lab managment system for FOI
-                Laboratories
+                -- NO INFO AVAILABLE -- <br/>
+                -- NO INFO AVAILABLE -- <br/>
+                -- NO INFO AVAILABLE -- <br/>
               </PostIntro>
               <div style={{ textAlign: "right" }}>
-                <a href="#">Read More</a>
+                <a href="https://github.com/dhruvsaxena1998/un-nammed">Github</a>
               </div>
             </PostPreview>
           </Post>

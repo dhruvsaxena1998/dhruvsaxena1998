@@ -3,15 +3,15 @@ import Reducer from "./reducer";
 
 const initState = {
   theme: {
-    mainColor: "#eaeaea",
-    secondaryColor: "#fff",
-    borderColor: "#c1c1c1",
-    mainText: "black",
-    secondaryText: "#4b5156",
-    themeDotBorder: "#24292e",
-    previewBackground: "#fbf9f3",
-    previewShadow: "#f0ead6",
-    buttonColor: "black",
+    mainColor: "#15202B",
+    secondaryColor: "#192734",
+    borderColor: "#164D56",
+    mainText: "#fff",
+    secondaryText: "#eeeeee",
+    themeDotBorder: "#FFF",
+    previewBackground: "rgb(25, 39, 52, 0.8)",
+    previewShadow: "#111921",
+    buttonColor: "#17a2b8",
   },
   loading: true,
 };

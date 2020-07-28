@@ -20,7 +20,9 @@ export default (props) => {
         <label>Message</label>
         <Textarea theme={theme}></Textarea>
 
-        <Button theme={theme.buttonColor}> Send </Button>
+        <Button theme={theme.buttonColor} onClick={(e) => {
+          e.preventDefault();
+        }}> Send </Button>
       </Form>
     </>
   );
