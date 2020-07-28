@@ -33,6 +33,10 @@ export const IntroWrapper = styled.div`
 
     padding-top: 50px;
     padding-bottom: 50px;
+
+    @media screen and (max-width: 880px) {
+      justify-content: center;
+    }
   }
   @media screen and (max-width: 880px) {
     justify-content: center;

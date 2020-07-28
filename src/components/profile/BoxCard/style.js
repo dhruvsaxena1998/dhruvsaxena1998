@@ -14,6 +14,13 @@ export const PreviewShadow = styled.div`
   max-width: 300px;
   height: 180px;
   padding: 30px 0 0 30px;
+
+  @media screen and (max-width: 400px) {
+    max-width: 280px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
 `;
 export const Preview = styled.div`
   width: 300px;
@@ -21,6 +28,10 @@ export const Preview = styled.div`
   background-color: ${(props) => props.theme};
   padding: 15px;
   position: relative;
+  
+  @media screen and (max-width: 400px) {
+    width: 280px;
+  }
 `;
 export const TopLeftCorner = styled(Corner)`
   top: -5px;
