@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PostWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-columns: repeat(auto-fit, 250px);
   gap: 20px;
   justify-content: center;
   padding-bottom: 50px;
@@ -29,6 +29,12 @@ export const Thumbnail = styled.img`
 export const PostPreview = styled.div`
   background-color: ${(props) => props.theme};
   padding: 15px;
+
+  & a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const PostTitle = styled.h6`

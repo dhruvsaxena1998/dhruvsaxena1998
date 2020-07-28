@@ -20,8 +20,7 @@ export default (props) => {
             <PostPreview theme={theme.secondaryColor}>
               <PostTitle>Content Management System</PostTitle>
               <PostIntro>
-              A basic Content Management System [WIP].
-              Allows user to manage their website cum blog.
+              A basic Content Management System
               </PostIntro>
               <div style={{ textAlign: "right" }}>
                 <a href="https://github.com/dhruvsaxena1998/cms">Github</a>
@@ -36,11 +35,27 @@ export default (props) => {
             <PostPreview theme={theme.secondaryColor}>
               <PostTitle>Simplify - URL Shortner and tracker</PostTitle>
               <PostIntro>
-                Developed with vuetify and express. Allows
-                user to shorten and track their long url's.
+                Developed with vuetify and express.
               </PostIntro>
               <div style={{ textAlign: "right" }}>
                 <a href="https://github.com/dhruvsaxena1998/simplify-vue">Github</a>
+              </div>
+            </PostPreview>
+          </Post>
+        </div>
+
+        <div>
+          <Post theme={theme.borderColor}>
+            <Thumbnail src="https://i.imgur.com/yx1lX0w.png" />
+            <PostPreview theme={theme.secondaryColor}>
+              <PostTitle>Monstrosity</PostTitle>
+              <PostIntro>
+                <br />
+                Click-based game build on vue.js
+              </PostIntro>
+              <div style={{ textAlign: "right" }}>
+                <a style={{ marginRight: 10 }} href="https://saxenadhruv.me/monstrosity/"> Live Demo </a>
+                <a href="https://github.com/dhruvsaxena1998/monstrosity-vue">Github</a>
               </div>
             </PostPreview>
           </Post>
