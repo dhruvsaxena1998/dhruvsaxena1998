@@ -1,50 +1,67 @@
-import React from "react";
-
-export default (props) => (
-  <>
-    <h3 style={{ textAlign: "center" }}>Some of my past projects</h3>
-
-    <div class="post-wrapper">
-      <div>
-        <div class="post">
-          <img class="thumbnail" src="images/dash.jpg" />
-          <div class="post-preview">
-            <h6 class="post-title">Laboratory Management System</h6>
-            <p class="post-intro">
-              Designed built & mantained a the lab managment system for FOI
-              Laboratories
-            </p>
-            <a href="#">Read More</a>
-          </div>
+import React, { useContext } from "react";
+import { Context } from "../../context/api";
+import {
+  PostWrapper,
+  Post,
+  Thumbnail,
+  PostPreview,
+  PostTitle,
+  PostIntro,
+} from "./style";
+export default (props) => {
+  const { theme } = useContext(Context);
+  return (
+    <>
+      <h3 style={{ textAlign: "center" }}>Some of my past projects</h3>
+      <PostWrapper>
+        <div>
+          <Post theme={theme.borderColor}>
+            <Thumbnail src="images/dash.jpg" />
+            <PostPreview>
+              <PostTitle>Laboratory Management System</PostTitle>
+              <PostIntro>
+                Designed built & mantained a the lab managment system for FOI
+                Laboratories
+              </PostIntro>
+              <div style={{ textAlign: "right" }}>
+                <a href="#">Read More</a>
+              </div>
+            </PostPreview>
+          </Post>
         </div>
-      </div>
 
-      <div>
-        <div class="post">
-          <img class="thumbnail" src="images/ecom.jpg" />
-          <div class="post-preview">
-            <h6 class="post-title">Online Store - CoursePost Title</h6>
-            <p class="post-intro">
-              Online store with paypal payments intergration and guest user
-              shopping
-            </p>
-            <a href="#">Read More</a>
-          </div>
+        <div>
+          <Post theme={theme.borderColor}>
+            <Thumbnail src="images/dash.jpg" />
+            <PostPreview>
+              <PostTitle>Laboratory Management System</PostTitle>
+              <PostIntro>
+                Designed built & mantained a the lab managment system for FOI
+                Laboratories
+              </PostIntro>
+              <div style={{ textAlign: "right" }}>
+                <a href="#">Read More</a>
+              </div>
+            </PostPreview>
+          </Post>
         </div>
-      </div>
 
-      <div>
-        <div class="post">
-          <img class="thumbnail" src="images/membership site.jpg" />
-          <div class="post-preview">
-            <h6 class="post-title">Membership Website</h6>
-            <p class="post-intro">
-              Modulized guide for online courses with step by step intructions
-            </p>
-            <a href="#">Read More</a>
-          </div>
+        <div>
+          <Post theme={theme.borderColor}>
+            <Thumbnail src="images/dash.jpg" />
+            <PostPreview>
+              <PostTitle>Laboratory Management System</PostTitle>
+              <PostIntro>
+                Designed built & mantained a the lab managment system for FOI
+                Laboratories
+              </PostIntro>
+              <div style={{ textAlign: "right" }}>
+                <a href="#">Read More</a>
+              </div>
+            </PostPreview>
+          </Post>
         </div>
-      </div>
-    </div>
-  </>
-);
+      </PostWrapper>
+    </>
+  );
+};
