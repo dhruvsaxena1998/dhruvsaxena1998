@@ -18,8 +18,6 @@ export const PreviewShadow = styled.div`
   @media screen and (max-width: 400px) {
     max-width: 280px;
     height: 180px;
-    padding-left: 10px;
-    padding-top: 10px;
   }
 `;
 export const Preview = styled.div`

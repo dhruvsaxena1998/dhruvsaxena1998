@@ -18,6 +18,10 @@ export const SocialLinks = styled.div`
   display: grid;
   align-content: center;
   text-align: center;
+
+  @media screen and (max-width: 778px) {
+    margin-top: -4rem
+  }
 `;
 
 export const SocialImg = styled.img`

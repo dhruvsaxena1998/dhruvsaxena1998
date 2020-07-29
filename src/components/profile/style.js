@@ -36,6 +36,16 @@ export const IntroWrapper = styled.div`
 
     @media screen and (max-width: 880px) {
       justify-content: center;
+      align-items: center;
+      margin-top: -4rem;
+    }
+
+    @media screen and (max-width: 560px) {
+      margin-left: -1rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin-left: -1.5rem;
     }
   }
   @media screen and (max-width: 880px) {
