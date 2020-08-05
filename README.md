@@ -1,16 +1,56 @@
-### Hi there 👋
+## Hey there, I'm Dhruv Saxena - [website] 👋
+#### A Fulltime JS Front-end Developer on the way to become fullstack.
+---
+- 🔭 I’m currently hustling with my startup [Developers Education](http://devedu.tech)
+- 🌱 Trying to improve my skills everyday
+- 🥅 2020 Goals: Contribute more to Open Source projects.
+- ⚡ Fun fact: I love to read about Cosmos and latest technologies.
 
-<!--
-**dhruvsaxena1998/dhruvsaxena1998** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Connect with me:
 
-Here are some ideas to get you started:
+[<img align="left" alt="saxenadhruv.me" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="pawwwwtato | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="dhruvsaxena1998 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="dhruvsaxena1998 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="dhruvsaxena1998" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][facebook]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br />
+
+### Languages and Tools:
+
+<img align="left" alt="C" width="26px" src="https://img.icons8.com/color/48/000000/c-programming.png" />
+
+<img align="left" alt="Java" width="26px" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" />
+
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+
+<img align="left" alt="Android" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png" />
+
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+
+<img align="left" alt="Git" width="26px" src="https://img.icons8.com/color/48/000000/git.png" />
+
+<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+
+<img align="left" alt="Terminal" width="26px" src="https://img.icons8.com/ios-filled/50/000000/linux.png" />
+
+<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+
+
+<br />
+<br />
+
+---
+
+<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=dhruvsaxena1998&show_icons=true&hide_border=true&count_private=true" /> 
+
+<br />
+<br />
+
+[website]: https://www.saxenadhruv.me
+[twitter]: https://twitter.com/pawwwwtato
+[instagram]: https://instagram.com/dhruvsaxena1998
+[linkedin]: https://linkedin.com/in/dhruvsaxena1998
+[facebook]: https://facebook.com/dhruvsaxena1998
