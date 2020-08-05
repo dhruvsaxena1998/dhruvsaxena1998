@@ -1,4 +1,4 @@
-## Hey there, I'm Dhruv Saxena - [website] 👋
+## Hey there, I'm [Dhruv Saxena][website] 👋
 #### A Fulltime JS Front-end Developer on the way to become fullstack.
 ---
 - 🔭 I’m currently hustling with my startup [Developers Education](http://devedu.tech)
