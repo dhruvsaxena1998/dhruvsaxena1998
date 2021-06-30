@@ -41,6 +41,10 @@
 ---
 
 <img alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=dhruvsaxena1998&show_icons=true&hide_border=true&count_private=true" /> 
+<br />
+<br />
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dhruvsaxena1998&theme=light)](https://git.io/streak-stats)
 
 <br />
 <br />
